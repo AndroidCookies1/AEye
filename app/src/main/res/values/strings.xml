@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">AEye</string>
+    <string name="app_name" translatable="false">AEye</string>
+    <string name="selected_language_key" translatable="false">selected_language</string>
+    <string name="a_eye_shared_prefs_name" translatable="false">a-eye-shared-prefs</string>
+    <string name="selected_language">Selected Language: %1$s</string>
+    <string name="choose_language">Choose Language:</string>
+    <string name="cd_language_selector">Language selector, tap to choose your language. Double tap to expand dropdown</string>
+    <string name="cd_selected">Selected</string>
+    <string name="cd_open_language_menu">Opens language selection menu</string>
 </resources>

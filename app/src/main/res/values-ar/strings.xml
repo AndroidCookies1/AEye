@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="selected_language">اللغة المختارة: %1$s</string>
+    <string name="choose_language">اختر لغة:</string>
+    <string name="cd_language_selector">مُحدد اللغة، اضغط لاختيار لغتك. اضغط مرتين لفتح القائمة</string>
+    <string name="cd_selected">مُحدد</string>
+    <string name="cd_open_language_menu">يفتح قائمة اختيار اللغة</string>
+</resources>
