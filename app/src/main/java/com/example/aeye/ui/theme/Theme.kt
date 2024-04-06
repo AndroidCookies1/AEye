@@ -11,26 +11,34 @@ import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
 
+val primaryColor = AppColors.primary
+val primaryDarkColor = AppColors.primaryDark
+val accentColor = AppColors.accent
+
 private val DarkColorScheme = darkColorScheme(
-    primary = Purple80,
-    secondary = PurpleGrey80,
-    tertiary = Pink80
+    primary = primaryColor,
+    secondary = AppColors.textSecondary,
+    tertiary = accentColor,
+    background = AppColors.windowBackground,
+    surface = AppColors.windowBackground,
+    onPrimary = AppColors.textPrimary,
+    onSecondary = AppColors.textPrimary,
+    onTertiary = AppColors.textPrimary,
+    onBackground = AppColors.textPrimary,
+    onSurface = AppColors.textPrimary
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = Purple40,
-    secondary = PurpleGrey40,
-    tertiary = Pink40
-
-    /* Other default colors to override
-    background = Color(0xFFFFFBFE),
-    surface = Color(0xFFFFFBFE),
-    onPrimary = Color.White,
-    onSecondary = Color.White,
-    onTertiary = Color.White,
-    onBackground = Color(0xFF1C1B1F),
-    onSurface = Color(0xFF1C1B1F),
-    */
+    primary = primaryColor,
+    secondary = AppColors.textSecondary,
+    tertiary = accentColor,
+    background = AppColors.windowBackground,
+    surface = AppColors.windowBackground,
+    onPrimary = AppColors.textPrimary,
+    onSecondary = AppColors.textPrimary,
+    onTertiary = AppColors.textPrimary,
+    onBackground = AppColors.textPrimary,
+    onSurface = AppColors.textPrimary
 )
 
 @Composable
